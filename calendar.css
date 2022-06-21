@@ -1,0 +1,83 @@
+* {
+    font-size: 30px;
+  }
+  span {
+    display: inline-block;
+    padding: 10px;
+  }
+  .week {
+    padding: 20px;
+  }
+  .classday {
+    background-color: #bababd;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+  }
+  .notclass {
+    background-color: #868787;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+  }
+  .day1 {
+    padding: 20px;
+    line-height: 20px;
+  }
+
+  .blank {
+    background-color: white;
+    width: 130px;
+    height: 50px;
+  }
+
+  .c_day {
+    background-color: #ecf4f6;
+    width: 130px;
+    height: 50px;
+  }
+
+  .nc_day {
+    background-color: #97b9e4;
+    width: 130px;
+    height: 50px;
+  }
+
+  #posco {
+    background-color: rgb(84, 84, 239);
+    width: 130px;
+    height: 50px;
+  }
+
+  #posco::after {
+    content: "포스코";
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .holiday {
+    background-color: rgba(241, 188, 188, 0.8);
+    width: 130px;
+    height: 50px;
+  }
+
+  .day2 {
+    padding: 20px;
+    line-height: 20px;
+  }
+
+  .day3 {
+    padding: 20px;
+    line-height: 20px;
+  }
+
+  .day4 {
+    padding: 20px;
+    line-height: 20px;
+  }
+
+  .day5 {
+    padding: 20px;
+    line-height: 20px;
+  }
